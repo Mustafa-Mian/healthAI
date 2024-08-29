@@ -15,6 +15,7 @@ import {
   Avatar,
 } from "@mui/material";
 import { CheckCircleOutline, Speed, Security } from "@mui/icons-material";
+import { Analytics } from "@vercel/analytics/react"
 
 function LandingPage() {
 
@@ -113,6 +114,7 @@ function LandingPage() {
             Made with &#60;3 by M.Mian
           </Typography>
         </Container>
+        <Analytics/>
       </Box>
     </>
   );
