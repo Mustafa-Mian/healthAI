@@ -4,8 +4,6 @@ import Link from 'next/link';
 import ResponsiveAppBar from './components/ResponsiveAppBar';
 import React from "react";
 import {
-  AppBar,
-  Toolbar,
   Typography,
   Button,
   Container,
